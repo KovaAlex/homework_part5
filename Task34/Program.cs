@@ -3,7 +3,7 @@
 // [345, 897, 568, 234] -> 2
 
 int[] array = myArray(6);
-Console.WriteLine($"[{string.Join(",", array)}] -> {GetResult(array)}");
+Console.WriteLine($"[{string.Join(",", array)}] количество четных чисел {GetResult(array)}");
 
 int[] myArray(int size)
 {
